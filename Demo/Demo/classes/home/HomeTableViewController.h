@@ -1,5 +1,5 @@
 //
-//  AppDelegate.h
+//  HomeTableViewController.h
 //  Demo
 //
 //  Created by went_macbook on 16/5/22.
@@ -8,10 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface AppDelegate : UIResponder <UIApplicationDelegate>
-
-@property (strong, nonatomic) UIWindow *window;
-
+@interface HomeTableViewController : UITableViewController
 
 @end
-

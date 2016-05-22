@@ -1,6 +1,6 @@
 //
 //  AppDelegate.m
-//  Demo
+//  demo3
 //
 //  Created by went_macbook on 16/5/22.
 //  Copyright © 2016年 went. All rights reserved.
@@ -17,12 +17,6 @@
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions {
     // Override point for customization after application launch.
-    self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
-    self.window.backgroundColor = RandomColor;
-    UITabBarController *tbController = [[UITabBarController alloc]init];
-    self.window.rootViewController = tbController;
-    [self.window makeKeyAndVisible];
-    
     return YES;
 }
 
