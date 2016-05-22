@@ -9,8 +9,6 @@
 /* Begin PBXBuildFile section */
 		2B497BA01CF037FF00E6844D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B497B9F1CF037FF00E6844D /* main.m */; };
 		2B497BA31CF037FF00E6844D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B497BA21CF037FF00E6844D /* AppDelegate.m */; };
-		2B497BA61CF037FF00E6844D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B497BA51CF037FF00E6844D /* ViewController.m */; };
-		2B497BA91CF037FF00E6844D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B497BA71CF037FF00E6844D /* Main.storyboard */; };
 		2B497BAB1CF037FF00E6844D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B497BAA1CF037FF00E6844D /* Assets.xcassets */; };
 		2B497BAE1CF037FF00E6844D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B497BAC1CF037FF00E6844D /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
@@ -20,9 +18,6 @@
 		2B497B9F1CF037FF00E6844D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2B497BA11CF037FF00E6844D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B497BA21CF037FF00E6844D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2B497BA41CF037FF00E6844D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2B497BA51CF037FF00E6844D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2B497BA81CF037FF00E6844D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		2B497BAA1CF037FF00E6844D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2B497BAD1CF037FF00E6844D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B497BAF1CF037FF00E6844D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -60,9 +55,6 @@
 			children = (
 				2B497BA11CF037FF00E6844D /* AppDelegate.h */,
 				2B497BA21CF037FF00E6844D /* AppDelegate.m */,
-				2B497BA41CF037FF00E6844D /* ViewController.h */,
-				2B497BA51CF037FF00E6844D /* ViewController.m */,
-				2B497BA71CF037FF00E6844D /* Main.storyboard */,
 				2B497BAA1CF037FF00E6844D /* Assets.xcassets */,
 				2B497BAC1CF037FF00E6844D /* LaunchScreen.storyboard */,
 				2B497BAF1CF037FF00E6844D /* Info.plist */,
@@ -138,7 +130,6 @@
 			files = (
 				2B497BAE1CF037FF00E6844D /* LaunchScreen.storyboard in Resources */,
 				2B497BAB1CF037FF00E6844D /* Assets.xcassets in Resources */,
-				2B497BA91CF037FF00E6844D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -149,7 +140,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2B497BA61CF037FF00E6844D /* ViewController.m in Sources */,
 				2B497BA31CF037FF00E6844D /* AppDelegate.m in Sources */,
 				2B497BA01CF037FF00E6844D /* main.m in Sources */,
 			);
@@ -158,14 +148,6 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXVariantGroup section */
-		2B497BA71CF037FF00E6844D /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				2B497BA81CF037FF00E6844D /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		2B497BAC1CF037FF00E6844D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -260,8 +242,9 @@
 		2B497BB31CF037FF00E6844D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.went.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -271,8 +254,9 @@
 		2B497BB41CF037FF00E6844D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = "Brand Assets";
 				INFOPLIST_FILE = demo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.went.demo;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -298,6 +282,7 @@
 				2B497BB41CF037FF00E6844D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
