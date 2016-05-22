@@ -9,7 +9,11 @@
 /* Begin PBXBuildFile section */
 		2BDDB3301CF19F2F0025E7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB32F1CF19F2F0025E7D2 /* main.m */; };
 		2BDDB33B1CF19F2F0025E7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDDB33A1CF19F2F0025E7D2 /* Assets.xcassets */; };
-		2BDDB3681CF1A09A0025E7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB34C1CF1A09A0025E7D2 /* AppDelegate.m */; };
+		2BDDB3861CF1B2350025E7D2 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3851CF1B2350025E7D2 /* MessageTableViewController.m */; };
+		2BDDB3891CF1B24F0025E7D2 /* ProfileTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3881CF1B24F0025E7D2 /* ProfileTableViewController.m */; };
+		2BDDB38C1CF1B2690025E7D2 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB38B1CF1B2690025E7D2 /* DiscoverTableViewController.m */; };
+		2BDDB3B61CF1B3360025E7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3B51CF1B3360025E7D2 /* AppDelegate.m */; };
+		2BDDB3BD1CF1BE0E0025E7D2 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3BC1CF1BE0E0025E7D2 /* HomeTableViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -17,9 +21,17 @@
 		2BDDB32F1CF19F2F0025E7D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BDDB33A1CF19F2F0025E7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		2BDDB33F1CF19F2F0025E7D2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2BDDB34B1CF1A09A0025E7D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2BDDB34C1CF1A09A0025E7D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2BDDB3691CF1A1DD0025E7D2 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2BDDB3841CF1B2350025E7D2 /* MessageTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MessageTableViewController.h; sourceTree = "<group>"; };
+		2BDDB3851CF1B2350025E7D2 /* MessageTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MessageTableViewController.m; sourceTree = "<group>"; };
+		2BDDB3871CF1B24F0025E7D2 /* ProfileTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ProfileTableViewController.h; sourceTree = "<group>"; };
+		2BDDB3881CF1B24F0025E7D2 /* ProfileTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ProfileTableViewController.m; sourceTree = "<group>"; };
+		2BDDB38A1CF1B2690025E7D2 /* DiscoverTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DiscoverTableViewController.h; sourceTree = "<group>"; };
+		2BDDB38B1CF1B2690025E7D2 /* DiscoverTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DiscoverTableViewController.m; sourceTree = "<group>"; };
+		2BDDB3B41CF1B3360025E7D2 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2BDDB3B51CF1B3360025E7D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2BDDB3BB1CF1BE0E0025E7D2 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
+		2BDDB3BC1CF1BE0E0025E7D2 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -72,13 +84,12 @@
 		2BDDB3451CF1A09A0025E7D2 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				2BDDB3B71CF1BDB90025E7D2 /* home */,
+				2BDDB3781CF1B05B0025E7D2 /* message */,
+				2BDDB37D1CF1B0840025E7D2 /* profile */,
+				2BDDB36A1CF1B05B0025E7D2 /* discover */,
+				2BDDB3721CF1B05B0025E7D2 /* main */,
 				2BDDB3461CF1A09A0025E7D2 /* category */,
-				2BDDB34A1CF1A09A0025E7D2 /* main */,
-				2BDDB3501CF1A09A0025E7D2 /* main副本 */,
-				2BDDB3541CF1A09A0025E7D2 /* main副本 2 */,
-				2BDDB3581CF1A09A0025E7D2 /* main副本 3 */,
-				2BDDB35C1CF1A09A0025E7D2 /* main副本 4 */,
-				2BDDB3601CF1A09A0025E7D2 /* main副本 5 */,
 				2BDDB3641CF1A09A0025E7D2 /* other */,
 			);
 			path = classes;
@@ -115,194 +126,6 @@
 			path = view;
 			sourceTree = "<group>";
 		};
-		2BDDB34A1CF1A09A0025E7D2 /* main */ = {
-			isa = PBXGroup;
-			children = (
-				2BDDB34B1CF1A09A0025E7D2 /* AppDelegate.h */,
-				2BDDB34C1CF1A09A0025E7D2 /* AppDelegate.m */,
-				2BDDB34D1CF1A09A0025E7D2 /* controller */,
-				2BDDB34E1CF1A09A0025E7D2 /* model */,
-				2BDDB34F1CF1A09A0025E7D2 /* view */,
-			);
-			path = main;
-			sourceTree = "<group>";
-		};
-		2BDDB34D1CF1A09A0025E7D2 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		2BDDB34E1CF1A09A0025E7D2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		2BDDB34F1CF1A09A0025E7D2 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		2BDDB3501CF1A09A0025E7D2 /* main副本 */ = {
-			isa = PBXGroup;
-			children = (
-				2BDDB3511CF1A09A0025E7D2 /* controller */,
-				2BDDB3521CF1A09A0025E7D2 /* model */,
-				2BDDB3531CF1A09A0025E7D2 /* view */,
-			);
-			path = "main副本";
-			sourceTree = "<group>";
-		};
-		2BDDB3511CF1A09A0025E7D2 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		2BDDB3521CF1A09A0025E7D2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		2BDDB3531CF1A09A0025E7D2 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		2BDDB3541CF1A09A0025E7D2 /* main副本 2 */ = {
-			isa = PBXGroup;
-			children = (
-				2BDDB3551CF1A09A0025E7D2 /* controller */,
-				2BDDB3561CF1A09A0025E7D2 /* model */,
-				2BDDB3571CF1A09A0025E7D2 /* view */,
-			);
-			path = "main副本 2";
-			sourceTree = "<group>";
-		};
-		2BDDB3551CF1A09A0025E7D2 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		2BDDB3561CF1A09A0025E7D2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		2BDDB3571CF1A09A0025E7D2 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		2BDDB3581CF1A09A0025E7D2 /* main副本 3 */ = {
-			isa = PBXGroup;
-			children = (
-				2BDDB3591CF1A09A0025E7D2 /* controller */,
-				2BDDB35A1CF1A09A0025E7D2 /* model */,
-				2BDDB35B1CF1A09A0025E7D2 /* view */,
-			);
-			path = "main副本 3";
-			sourceTree = "<group>";
-		};
-		2BDDB3591CF1A09A0025E7D2 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		2BDDB35A1CF1A09A0025E7D2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		2BDDB35B1CF1A09A0025E7D2 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		2BDDB35C1CF1A09A0025E7D2 /* main副本 4 */ = {
-			isa = PBXGroup;
-			children = (
-				2BDDB35D1CF1A09A0025E7D2 /* controller */,
-				2BDDB35E1CF1A09A0025E7D2 /* model */,
-				2BDDB35F1CF1A09A0025E7D2 /* view */,
-			);
-			path = "main副本 4";
-			sourceTree = "<group>";
-		};
-		2BDDB35D1CF1A09A0025E7D2 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		2BDDB35E1CF1A09A0025E7D2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		2BDDB35F1CF1A09A0025E7D2 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
-		2BDDB3601CF1A09A0025E7D2 /* main副本 5 */ = {
-			isa = PBXGroup;
-			children = (
-				2BDDB3611CF1A09A0025E7D2 /* controller */,
-				2BDDB3621CF1A09A0025E7D2 /* model */,
-				2BDDB3631CF1A09A0025E7D2 /* view */,
-			);
-			path = "main副本 5";
-			sourceTree = "<group>";
-		};
-		2BDDB3611CF1A09A0025E7D2 /* controller */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = controller;
-			sourceTree = "<group>";
-		};
-		2BDDB3621CF1A09A0025E7D2 /* model */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = model;
-			sourceTree = "<group>";
-		};
-		2BDDB3631CF1A09A0025E7D2 /* view */ = {
-			isa = PBXGroup;
-			children = (
-			);
-			path = view;
-			sourceTree = "<group>";
-		};
 		2BDDB3641CF1A09A0025E7D2 /* other */ = {
 			isa = PBXGroup;
 			children = (
@@ -328,6 +151,171 @@
 			sourceTree = "<group>";
 		};
 		2BDDB3671CF1A09A0025E7D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2BDDB36A1CF1B05B0025E7D2 /* discover */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB36B1CF1B05B0025E7D2 /* controller */,
+				2BDDB36C1CF1B05B0025E7D2 /* model */,
+				2BDDB36D1CF1B05B0025E7D2 /* view */,
+			);
+			path = discover;
+			sourceTree = "<group>";
+		};
+		2BDDB36B1CF1B05B0025E7D2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB38A1CF1B2690025E7D2 /* DiscoverTableViewController.h */,
+				2BDDB38B1CF1B2690025E7D2 /* DiscoverTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2BDDB36C1CF1B05B0025E7D2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2BDDB36D1CF1B05B0025E7D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2BDDB3721CF1B05B0025E7D2 /* main */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB3B41CF1B3360025E7D2 /* AppDelegate.h */,
+				2BDDB3B51CF1B3360025E7D2 /* AppDelegate.m */,
+				2BDDB3751CF1B05B0025E7D2 /* controller */,
+				2BDDB3761CF1B05B0025E7D2 /* model */,
+				2BDDB3771CF1B05B0025E7D2 /* view */,
+			);
+			path = main;
+			sourceTree = "<group>";
+		};
+		2BDDB3751CF1B05B0025E7D2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2BDDB3761CF1B05B0025E7D2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2BDDB3771CF1B05B0025E7D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2BDDB3781CF1B05B0025E7D2 /* message */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB3791CF1B05B0025E7D2 /* controller */,
+				2BDDB37A1CF1B05B0025E7D2 /* model */,
+				2BDDB37B1CF1B05B0025E7D2 /* view */,
+			);
+			path = message;
+			sourceTree = "<group>";
+		};
+		2BDDB3791CF1B05B0025E7D2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB3841CF1B2350025E7D2 /* MessageTableViewController.h */,
+				2BDDB3851CF1B2350025E7D2 /* MessageTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2BDDB37A1CF1B05B0025E7D2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2BDDB37B1CF1B05B0025E7D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2BDDB37D1CF1B0840025E7D2 /* profile */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB37E1CF1B0840025E7D2 /* controller */,
+				2BDDB37F1CF1B0840025E7D2 /* model */,
+				2BDDB3801CF1B0840025E7D2 /* view */,
+			);
+			path = profile;
+			sourceTree = "<group>";
+		};
+		2BDDB37E1CF1B0840025E7D2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB3871CF1B24F0025E7D2 /* ProfileTableViewController.h */,
+				2BDDB3881CF1B24F0025E7D2 /* ProfileTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2BDDB37F1CF1B0840025E7D2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2BDDB3801CF1B0840025E7D2 /* view */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = view;
+			sourceTree = "<group>";
+		};
+		2BDDB3B71CF1BDB90025E7D2 /* home */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB3B81CF1BDB90025E7D2 /* controller */,
+				2BDDB3B91CF1BDB90025E7D2 /* model */,
+				2BDDB3BA1CF1BDB90025E7D2 /* view */,
+			);
+			path = home;
+			sourceTree = "<group>";
+		};
+		2BDDB3B81CF1BDB90025E7D2 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BDDB3BB1CF1BE0E0025E7D2 /* HomeTableViewController.h */,
+				2BDDB3BC1CF1BE0E0025E7D2 /* HomeTableViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
+		2BDDB3B91CF1BDB90025E7D2 /* model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+		2BDDB3BA1CF1BDB90025E7D2 /* view */ = {
 			isa = PBXGroup;
 			children = (
 			);
@@ -402,8 +390,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2BDDB3681CF1A09A0025E7D2 /* AppDelegate.m in Sources */,
+				2BDDB38C1CF1B2690025E7D2 /* DiscoverTableViewController.m in Sources */,
 				2BDDB3301CF19F2F0025E7D2 /* main.m in Sources */,
+				2BDDB3B61CF1B3360025E7D2 /* AppDelegate.m in Sources */,
+				2BDDB3891CF1B24F0025E7D2 /* ProfileTableViewController.m in Sources */,
+				2BDDB3BD1CF1BE0E0025E7D2 /* HomeTableViewController.m in Sources */,
+				2BDDB3861CF1B2350025E7D2 /* MessageTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -539,6 +531,7 @@
 				2BDDB3441CF19F2F0025E7D2 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
