@@ -14,6 +14,13 @@
 		2BDDB38C1CF1B2690025E7D2 /* DiscoverTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB38B1CF1B2690025E7D2 /* DiscoverTableViewController.m */; };
 		2BDDB3B61CF1B3360025E7D2 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3B51CF1B3360025E7D2 /* AppDelegate.m */; };
 		2BDDB3BD1CF1BE0E0025E7D2 /* HomeTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3BC1CF1BE0E0025E7D2 /* HomeTableViewController.m */; };
+		2BDDB3C01CF25E350025E7D2 /* MainTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3BF1CF25E350025E7D2 /* MainTabBarController.m */; };
+		2BDDB3C31CF268EB0025E7D2 /* MainNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3C21CF268EB0025E7D2 /* MainNavigationController.m */; };
+		2BDDB3C71CF26D3D0025E7D2 /* FirstViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3C51CF26D3D0025E7D2 /* FirstViewController.m */; };
+		2BDDB3C81CF26D3D0025E7D2 /* FirstViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDDB3C61CF26D3D0025E7D2 /* FirstViewController.xib */; };
+		2BDDB3CC1CF26D4E0025E7D2 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3CA1CF26D4E0025E7D2 /* SecondViewController.m */; };
+		2BDDB3CD1CF26D4E0025E7D2 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2BDDB3CB1CF26D4E0025E7D2 /* SecondViewController.xib */; };
+		2BDDB3D31CF2DA250025E7D2 /* UIBarButtonItem+Extention.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3D21CF2DA250025E7D2 /* UIBarButtonItem+Extention.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,6 +39,18 @@
 		2BDDB3B51CF1B3360025E7D2 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2BDDB3BB1CF1BE0E0025E7D2 /* HomeTableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HomeTableViewController.h; sourceTree = "<group>"; };
 		2BDDB3BC1CF1BE0E0025E7D2 /* HomeTableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HomeTableViewController.m; sourceTree = "<group>"; };
+		2BDDB3BE1CF25E350025E7D2 /* MainTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainTabBarController.h; sourceTree = "<group>"; };
+		2BDDB3BF1CF25E350025E7D2 /* MainTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainTabBarController.m; sourceTree = "<group>"; };
+		2BDDB3C11CF268EB0025E7D2 /* MainNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MainNavigationController.h; sourceTree = "<group>"; };
+		2BDDB3C21CF268EB0025E7D2 /* MainNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MainNavigationController.m; sourceTree = "<group>"; };
+		2BDDB3C41CF26D3D0025E7D2 /* FirstViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstViewController.h; sourceTree = "<group>"; };
+		2BDDB3C51CF26D3D0025E7D2 /* FirstViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstViewController.m; sourceTree = "<group>"; };
+		2BDDB3C61CF26D3D0025E7D2 /* FirstViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstViewController.xib; sourceTree = "<group>"; };
+		2BDDB3C91CF26D4E0025E7D2 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		2BDDB3CA1CF26D4E0025E7D2 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		2BDDB3CB1CF26D4E0025E7D2 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		2BDDB3D11CF2DA250025E7D2 /* UIBarButtonItem+Extention.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extention.h"; sourceTree = "<group>"; };
+		2BDDB3D21CF2DA250025E7D2 /* UIBarButtonItem+Extention.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extention.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -108,6 +127,8 @@
 		2BDDB3471CF1A09A0025E7D2 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				2BDDB3D11CF2DA250025E7D2 /* UIBarButtonItem+Extention.h */,
+				2BDDB3D21CF2DA250025E7D2 /* UIBarButtonItem+Extention.m */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -205,6 +226,16 @@
 		2BDDB3751CF1B05B0025E7D2 /* controller */ = {
 			isa = PBXGroup;
 			children = (
+				2BDDB3BE1CF25E350025E7D2 /* MainTabBarController.h */,
+				2BDDB3BF1CF25E350025E7D2 /* MainTabBarController.m */,
+				2BDDB3C11CF268EB0025E7D2 /* MainNavigationController.h */,
+				2BDDB3C21CF268EB0025E7D2 /* MainNavigationController.m */,
+				2BDDB3C41CF26D3D0025E7D2 /* FirstViewController.h */,
+				2BDDB3C51CF26D3D0025E7D2 /* FirstViewController.m */,
+				2BDDB3C61CF26D3D0025E7D2 /* FirstViewController.xib */,
+				2BDDB3C91CF26D4E0025E7D2 /* SecondViewController.h */,
+				2BDDB3CA1CF26D4E0025E7D2 /* SecondViewController.m */,
+				2BDDB3CB1CF26D4E0025E7D2 /* SecondViewController.xib */,
 			);
 			path = controller;
 			sourceTree = "<group>";
@@ -380,6 +411,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2BDDB33B1CF19F2F0025E7D2 /* Assets.xcassets in Resources */,
+				2BDDB3C81CF26D3D0025E7D2 /* FirstViewController.xib in Resources */,
+				2BDDB3CD1CF26D4E0025E7D2 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -390,11 +423,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2BDDB3CC1CF26D4E0025E7D2 /* SecondViewController.m in Sources */,
 				2BDDB38C1CF1B2690025E7D2 /* DiscoverTableViewController.m in Sources */,
+				2BDDB3C71CF26D3D0025E7D2 /* FirstViewController.m in Sources */,
+				2BDDB3C01CF25E350025E7D2 /* MainTabBarController.m in Sources */,
 				2BDDB3301CF19F2F0025E7D2 /* main.m in Sources */,
 				2BDDB3B61CF1B3360025E7D2 /* AppDelegate.m in Sources */,
 				2BDDB3891CF1B24F0025E7D2 /* ProfileTableViewController.m in Sources */,
+				2BDDB3D31CF2DA250025E7D2 /* UIBarButtonItem+Extention.m in Sources */,
 				2BDDB3BD1CF1BE0E0025E7D2 /* HomeTableViewController.m in Sources */,
+				2BDDB3C31CF268EB0025E7D2 /* MainNavigationController.m in Sources */,
 				2BDDB3861CF1B2350025E7D2 /* MessageTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

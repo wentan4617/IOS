@@ -7,6 +7,7 @@
 //
 
 #import "HomeTableViewController.h"
+#import "FirstViewController.h"
 
 @interface HomeTableViewController ()
 
@@ -22,6 +23,15 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithTarget:self action:@selector(searchFriends) image:@"navigationbar_friendsearch" selectedImage:@"navigationbar_friendsearch_highlighted"];
+    self.navigationItem.rightBarButtonItem = [UIBarButtonItem barButtonItemWithTarget:self action:@selector(scan) image:@"navigationbar_pop" selectedImage:@"navigationbar_pop_highlighted"];
+}
+
+-(void)scan{
+    
+}
+-(void)searchFriends{
+    
 }
 
 - (void)didReceiveMemoryWarning {
@@ -33,17 +43,38 @@
 
 - (NSInteger)numberOfSectionsInTableView:(UITableView *)tableView {
 #warning Incomplete implementation, return the number of sections
-    return 0;
+    return 1;
 }
 
 - (NSInteger)tableView:(UITableView *)tableView numberOfRowsInSection:(NSInteger)section {
 #warning Incomplete implementation, return the number of rows
-    return 0;
+    return 20;
+}
+
+-(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
+    UITableViewCell *cell = [[UITableViewCell alloc]init];
+    
+    cell.textLabel.text = [NSString stringWithFormat:@"%@ %ld",@"HOME TableView --------",indexPath.row];
+    
+    
+    return cell;
+}
+
+- (void)tableView:(UITableView *)tableView didSelectRowAtIndexPath:(NSIndexPath *)indexPath{
+    FirstViewController *first = [[FirstViewController alloc]init];
+//    NSLog(@"%ld",self.navigationController.childViewControllers.count);
+//    if (self.navigationController.childViewControllers.count > 1) {
+//        self.hidesBottomBarWhenPushed = YES;
+//    }
+//    first.hidesBottomBarWhenPushed = YES;
+    
+    [self.navigationController pushViewController:first animated:YES];
+    
 }
 
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
-    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:<#@"reuseIdentifier"#> forIndexPath:indexPath];
+    UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:i forIndexPath:indexPath];
     
     // Configure the cell...
     
