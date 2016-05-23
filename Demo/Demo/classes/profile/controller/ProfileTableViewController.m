@@ -26,7 +26,7 @@
 }
 
 -(void)setting{
-    
+        
 }
 
 - (void)didReceiveMemoryWarning {
