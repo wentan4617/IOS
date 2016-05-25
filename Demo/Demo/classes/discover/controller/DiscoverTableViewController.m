@@ -22,6 +22,21 @@
     
     // Uncomment the following line to display an Edit button in the navigation bar for this view controller.
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
+    
+    UITextField *field = [[UITextField alloc]initWithFrame:CGRectMake(0, 0, 320, 40)];
+    [field setFont:[UIFont systemFontOfSize:14]];
+    field.placeholder = @"input your search content";
+    field.background = [UIImage imageNamed:@"searchbar_textfield_background"];
+    
+    UIImageView *leftView = [[UIImageView alloc]initWithFrame:CGRectMake(0, 0, 30, 30)];
+    leftView.contentMode = UIViewContentModeCenter;
+    UIImage *leftImage = [UIImage imageNamed:@"searchbar_textfield_search_icon"];
+    field.leftViewMode = UITextFieldViewModeAlways;
+    leftView.image = leftImage;
+    field.leftView = leftView;
+    
+    self.navigationItem.titleView = field;
+    
 }
 
 - (void)didReceiveMemoryWarning {

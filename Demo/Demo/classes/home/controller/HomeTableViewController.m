@@ -8,8 +8,11 @@
 
 #import "HomeTableViewController.h"
 #import "FirstViewController.h"
+#import "MyDorpMenuView.h"
+#import "DropMenuTableViewController.h"
 
-@interface HomeTableViewController ()
+@interface HomeTableViewController () <DropMenuDelegate>
+
 
 @end
 
@@ -18,6 +21,7 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
     // Uncomment the following line to preserve selection between presentations.
     // self.clearsSelectionOnViewWillAppear = NO;
     
@@ -25,12 +29,45 @@
     // self.navigationItem.rightBarButtonItem = self.editButtonItem;
     self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWithTarget:self action:@selector(searchFriends) image:@"navigationbar_friendsearch" selectedImage:@"navigationbar_friendsearch_highlighted"];
     self.navigationItem.rightBarButtonItem = [UIBarButtonItem barButtonItemWithTarget:self action:@selector(scan) image:@"navigationbar_pop" selectedImage:@"navigationbar_pop_highlighted"];
+    
+    UIButton *btn = [[UIButton alloc]initWithFrame:CGRectMake(0, 0, 150, 30)];
+    
+    [btn setTitle:@"HOME" forState:UIControlStateNormal];
+    [btn setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"navigationbar_arrow_down"] forState:UIControlStateNormal];
+    [btn setImage:[UIImage imageNamed:@"navigationbar_arrow_up"] forState:UIControlStateSelected];
+	
+    btn.titleLabel.font = [UIFont systemFontOfSize:17];
+    btn.imageEdgeInsets = UIEdgeInsetsMake(0, 80, 0, 0);
+    btn.titleEdgeInsets = UIEdgeInsetsMake(0, 0, 0, 50);
+    
+    [btn addTarget:self action:@selector(onClick:) forControlEvents:UIControlEventTouchUpInside];
+    
+    self.navigationItem.titleView = btn;
+    
+    
 }
 
 -(void)scan{
     
 }
 -(void)searchFriends{
+    
+}
+-(void)onClick:(UIView *) btn{
+    MyDorpMenuView *menuView = [MyDorpMenuView menu];
+    menuView.delegate = self;
+    
+    DropMenuTableViewController *menu = [[DropMenuTableViewController alloc]init];
+    
+ 
+    menu.view.frame = CGRectMake(0, 0, 150, 180);
+    
+    menuView.contentController = menu;
+     
+    
+    [menuView showMenu:btn];
+    
     
 }
 
@@ -72,6 +109,15 @@
     
 }
 
+- (void)arrowUp:(MyDorpMenuView *)menu{
+    UIButton *btn = (UIButton *)self.navigationItem.titleView;
+    btn.selected = YES;
+    
+}
+- (void)arrowDown:(MyDorpMenuView *)menu{
+    UIButton *btn = (UIButton *)self.navigationItem.titleView;
+    btn.selected = NO;
+}
 /*
 - (UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath {
     UITableViewCell *cell = [tableView dequeueReusableCellWithIdentifier:i forIndexPath:indexPath];
