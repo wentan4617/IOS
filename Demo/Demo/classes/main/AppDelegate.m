@@ -8,6 +8,7 @@
 
 #import "AppDelegate.h"
 #import "MainTabBarController.h"
+#import "NewFeatureViewController.h"
 
 
 @interface AppDelegate ()
@@ -21,9 +22,30 @@
     
     self.window = [[UIWindow alloc]initWithFrame:[UIScreen mainScreen].bounds];
     
-    MainTabBarController *tbController = [[MainTabBarController alloc]init];
+//    MainTabBarController *tbController = [[MainTabBarController alloc]init];
     
-    self.window.rootViewController = tbController;
+//    self.window.rootViewController = tbController;
+    
+//    NewFeatureViewController *newFeature = [[NewFeatureViewController alloc]init];
+//    self.window.rootViewController = newFeature;
+    NSString *key = @"CFBundleVersion";
+    
+    NSString *lastVersion = [[NSUserDefaults standardUserDefaults] objectForKey:key];
+    NSString *currentVersion = [NSBundle mainBundle].infoDictionary[key];
+    
+    NSLog(@"%@   %@",lastVersion,currentVersion);
+    
+    
+    if ([lastVersion isEqualToString:currentVersion]) {
+        MainTabBarController *tbController = [[MainTabBarController alloc]init];
+        self.window.rootViewController = tbController;
+    } else {
+        NewFeatureViewController *newFeature = [[NewFeatureViewController alloc]init];
+        self.window.rootViewController = newFeature;
+        [[NSUserDefaults standardUserDefaults] setObject:currentVersion forKey:key];
+        [[NSUserDefaults standardUserDefaults] synchronize];
+        
+    }
     
     [self.window makeKeyAndVisible];
     

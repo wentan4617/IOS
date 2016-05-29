@@ -12,8 +12,10 @@
 #import "MessageTableViewController.h"
 #import "DiscoverTableViewController.h"
 #import "ProfileTableViewController.h"
+#import "MyTabBar.h"
 
-@interface MainTabBarController ()
+@interface MainTabBarController ()<MyTabBarDelegate>
+
 
 @end
 
@@ -23,12 +25,16 @@
     [super viewDidLoad];
     // Do any additional setup after loading the view.
     [self setupTabBar];
+    
+   
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
+
+
 
 -(void)setupTabBar{
     HomeTableViewController *home = [[HomeTableViewController alloc]init];
@@ -41,6 +47,13 @@
     
     ProfileTableViewController *profile = [[ProfileTableViewController alloc]init];
     [self addVc:profile withTitle:@"profile" withImage:@"tabbar_profile"withSelectedImage:@"tabbar_profile_highlighted"];
+    
+    MyTabBar *myTabBar = [[MyTabBar alloc]init];
+    
+    myTabBar.delegate = self;
+    
+    [self setValue:myTabBar forKey:@"tabBar"];
+    
 }
 
 
@@ -72,5 +85,11 @@
     // Pass the selected object to the new view controller.
 }
 */
+
+- (void)tabBarDidClick:(MyTabBar *)tabBar{
+    UIViewController *vc = [[UIViewController alloc]init];
+    [vc.view setBackgroundColor:[UIColor redColor]];
+    [self presentViewController:vc animated:YES completion:nil];
+}
 
 @end

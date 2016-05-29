@@ -8,6 +8,8 @@
 
 /* Begin PBXBuildFile section */
 		2BA84EE51CF5A65300B5BE87 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BA84EE41CF5A65300B5BE87 /* UIView+Extension.m */; };
+		2BDCE4411CF9352B006E2016 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE4401CF9352B006E2016 /* MyTabBar.m */; };
+		2BDCE4461CFA9053006E2016 /* NewFeatureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDCE4451CFA9053006E2016 /* NewFeatureViewController.m */; };
 		2BDDB3301CF19F2F0025E7D2 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB32F1CF19F2F0025E7D2 /* main.m */; };
 		2BDDB33B1CF19F2F0025E7D2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2BDDB33A1CF19F2F0025E7D2 /* Assets.xcassets */; };
 		2BDDB3861CF1B2350025E7D2 /* MessageTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2BDDB3851CF1B2350025E7D2 /* MessageTableViewController.m */; };
@@ -29,6 +31,10 @@
 /* Begin PBXFileReference section */
 		2BA84EE31CF5A65300B5BE87 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
 		2BA84EE41CF5A65300B5BE87 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2BDCE43F1CF9352B006E2016 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		2BDCE4401CF9352B006E2016 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		2BDCE4441CFA9053006E2016 /* NewFeatureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewFeatureViewController.h; sourceTree = "<group>"; };
+		2BDCE4451CFA9053006E2016 /* NewFeatureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewFeatureViewController.m; sourceTree = "<group>"; };
 		2BDDB32B1CF19F2F0025E7D2 /* Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Demo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2BDDB32F1CF19F2F0025E7D2 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2BDDB33A1CF19F2F0025E7D2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -73,6 +79,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2BDCE4421CFA9027006E2016 /* newFeature */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCE4431CFA9027006E2016 /* controller */,
+			);
+			path = newFeature;
+			sourceTree = "<group>";
+		};
+		2BDCE4431CFA9027006E2016 /* controller */ = {
+			isa = PBXGroup;
+			children = (
+				2BDCE4441CFA9053006E2016 /* NewFeatureViewController.h */,
+				2BDCE4451CFA9053006E2016 /* NewFeatureViewController.m */,
+			);
+			path = controller;
+			sourceTree = "<group>";
+		};
 		2BDDB3221CF19F2F0025E7D2 = {
 			isa = PBXGroup;
 			children = (
@@ -112,6 +135,7 @@
 		2BDDB3451CF1A09A0025E7D2 /* classes */ = {
 			isa = PBXGroup;
 			children = (
+				2BDCE4421CFA9027006E2016 /* newFeature */,
 				2BDDB3B71CF1BDB90025E7D2 /* home */,
 				2BDDB3781CF1B05B0025E7D2 /* message */,
 				2BDDB37D1CF1B0840025E7D2 /* profile */,
@@ -265,6 +289,8 @@
 		2BDDB3771CF1B05B0025E7D2 /* view */ = {
 			isa = PBXGroup;
 			children = (
+				2BDCE43F1CF9352B006E2016 /* MyTabBar.h */,
+				2BDCE4401CF9352B006E2016 /* MyTabBar.m */,
 			);
 			path = view;
 			sourceTree = "<group>";
@@ -448,9 +474,11 @@
 				2BDDB3D31CF2DA250025E7D2 /* UIBarButtonItem+Extention.m in Sources */,
 				2BDDB3D91CF5749E0025E7D2 /* DropMenuTableViewController.m in Sources */,
 				2BDDB3BD1CF1BE0E0025E7D2 /* HomeTableViewController.m in Sources */,
+				2BDCE4461CFA9053006E2016 /* NewFeatureViewController.m in Sources */,
 				2BA84EE51CF5A65300B5BE87 /* UIView+Extension.m in Sources */,
 				2BDDB3C31CF268EB0025E7D2 /* MainNavigationController.m in Sources */,
 				2BDDB3D61CF5513E0025E7D2 /* MyDorpMenuView.m in Sources */,
+				2BDCE4411CF9352B006E2016 /* MyTabBar.m in Sources */,
 				2BDDB3861CF1B2350025E7D2 /* MessageTableViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
