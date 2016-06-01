@@ -17,11 +17,20 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = GlobalBgColor;
+    
+    self.navigationItem.title = @"Recommonds";
+    
+    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWith:@"friendsRecommentIcon" selectedImage:@"friendsRecommentIcon-click" target:self action:@selector(leftDidClick)];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
+}
+
+- (void)leftDidClick{
+    LogFunction;
 }
 
 /*

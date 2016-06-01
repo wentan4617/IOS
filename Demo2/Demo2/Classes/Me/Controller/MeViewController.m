@@ -17,13 +17,26 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    self.view.backgroundColor = GlobalBgColor;
+    
+    self.navigationItem.title = @"ME";
+    
+    UIBarButtonItem *mine = [UIBarButtonItem barButtonItemWith:@"mine-setting-icon" selectedImage:@"mine-setting-icon-click" target:self action:@selector(mineDidClick)];
+    UIBarButtonItem *moon = [UIBarButtonItem barButtonItemWith:@"mine-moon-icon" selectedImage:@"mine-moon-icon-click" target:self action:@selector(moonDidClick)];
+    
+    self.navigationItem.rightBarButtonItems = @[mine,moon];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
 }
-
+- (void)mineDidClick{
+    LogFunction;
+}
+- (void)moonDidClick{
+    LogFunction;
+}
 /*
 #pragma mark - Navigation
 

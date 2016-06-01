@@ -11,6 +11,15 @@
 		2B23CC4A1CFE9B0A00980397 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CC491CFE9B0A00980397 /* Assets.xcassets */; };
 		2B23CC4D1CFE9B0A00980397 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CC4B1CFE9B0A00980397 /* LaunchScreen.storyboard */; };
 		2B23CC6D1CFE9D1200980397 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC5F1CFE9D1200980397 /* AppDelegate.m */; };
+		2B23CC711CFEA42600980397 /* MyTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC701CFEA42600980397 /* MyTabBarController.m */; };
+		2B23CC741CFEA59A00980397 /* MyNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC731CFEA59A00980397 /* MyNavigationController.m */; };
+		2B23CC771CFEA6EB00980397 /* HotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC761CFEA6EB00980397 /* HotViewController.m */; };
+		2B23CC7A1CFEA6FC00980397 /* FriendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC791CFEA6FC00980397 /* FriendViewController.m */; };
+		2B23CC7D1CFEA70D00980397 /* MeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC7C1CFEA70D00980397 /* MeViewController.m */; };
+		2B23CC801CFEA71E00980397 /* NewViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC7F1CFEA71E00980397 /* NewViewController.m */; };
+		2B23CC831CFEC1C200980397 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC821CFEC1C200980397 /* MyTabBar.m */; };
+		2B23CC861CFECB7B00980397 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC851CFECB7B00980397 /* UIView+Extension.m */; };
+		2B23CC891CFEE10600980397 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC881CFEE10600980397 /* UIBarButtonItem+Extension.m */; };
 		E0DC0D1B6D0FA65BB0016CA2 /* libPods-Demo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 509DB0BA857A8DA09F88EF37 /* libPods-Demo2.a */; };
 /* End PBXBuildFile section */
 
@@ -23,6 +32,24 @@
 		2B23CC5E1CFE9D1200980397 /* AppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		2B23CC5F1CFE9D1200980397 /* AppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
 		2B23CC6E1CFEA18800980397 /* PrefixHeader.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PrefixHeader.pch; sourceTree = "<group>"; };
+		2B23CC6F1CFEA42600980397 /* MyTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBarController.h; sourceTree = "<group>"; };
+		2B23CC701CFEA42600980397 /* MyTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBarController.m; sourceTree = "<group>"; };
+		2B23CC721CFEA59A00980397 /* MyNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyNavigationController.h; sourceTree = "<group>"; };
+		2B23CC731CFEA59A00980397 /* MyNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyNavigationController.m; sourceTree = "<group>"; };
+		2B23CC751CFEA6EB00980397 /* HotViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HotViewController.h; sourceTree = "<group>"; };
+		2B23CC761CFEA6EB00980397 /* HotViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HotViewController.m; sourceTree = "<group>"; };
+		2B23CC781CFEA6FC00980397 /* FriendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FriendViewController.h; sourceTree = "<group>"; };
+		2B23CC791CFEA6FC00980397 /* FriendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FriendViewController.m; sourceTree = "<group>"; };
+		2B23CC7B1CFEA70D00980397 /* MeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MeViewController.h; sourceTree = "<group>"; };
+		2B23CC7C1CFEA70D00980397 /* MeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MeViewController.m; sourceTree = "<group>"; };
+		2B23CC7E1CFEA71E00980397 /* NewViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewViewController.h; sourceTree = "<group>"; };
+		2B23CC7F1CFEA71E00980397 /* NewViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewViewController.m; sourceTree = "<group>"; };
+		2B23CC811CFEC1C200980397 /* MyTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MyTabBar.h; sourceTree = "<group>"; };
+		2B23CC821CFEC1C200980397 /* MyTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MyTabBar.m; sourceTree = "<group>"; };
+		2B23CC841CFECB7B00980397 /* UIView+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+Extension.h"; sourceTree = "<group>"; };
+		2B23CC851CFECB7B00980397 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
+		2B23CC871CFEE10600980397 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
+		2B23CC881CFEE10600980397 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
 		45F50CF8063BF2A5B084645A /* Pods-Demo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo2/Pods-Demo2.release.xcconfig"; sourceTree = "<group>"; };
 		509DB0BA857A8DA09F88EF37 /* libPods-Demo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE59DA51F86676C0EC52B11 /* Pods-Demo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo2/Pods-Demo2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -82,11 +109,11 @@
 		2B23CC541CFE9D1200980397 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				2B23CC551CFE9D1200980397 /* Friend */,
 				2B23CC591CFE9D1200980397 /* Hot */,
-				2B23CC5D1CFE9D1200980397 /* Main */,
-				2B23CC651CFE9D1200980397 /* Me */,
 				2B23CC691CFE9D1200980397 /* New */,
+				2B23CC551CFE9D1200980397 /* Friend */,
+				2B23CC651CFE9D1200980397 /* Me */,
+				2B23CC5D1CFE9D1200980397 /* Main */,
 			);
 			path = Classes;
 			sourceTree = "<group>";
@@ -104,6 +131,8 @@
 		2B23CC561CFE9D1200980397 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC781CFEA6FC00980397 /* FriendViewController.h */,
+				2B23CC791CFEA6FC00980397 /* FriendViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -135,6 +164,8 @@
 		2B23CC5A1CFE9D1200980397 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC751CFEA6EB00980397 /* HotViewController.h */,
+				2B23CC761CFEA6EB00980397 /* HotViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -170,6 +201,10 @@
 		2B23CC601CFE9D1200980397 /* Catrgory */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC841CFECB7B00980397 /* UIView+Extension.h */,
+				2B23CC851CFECB7B00980397 /* UIView+Extension.m */,
+				2B23CC871CFEE10600980397 /* UIBarButtonItem+Extension.h */,
+				2B23CC881CFEE10600980397 /* UIBarButtonItem+Extension.m */,
 			);
 			path = Catrgory;
 			sourceTree = "<group>";
@@ -177,6 +212,10 @@
 		2B23CC611CFE9D1200980397 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC6F1CFEA42600980397 /* MyTabBarController.h */,
+				2B23CC701CFEA42600980397 /* MyTabBarController.m */,
+				2B23CC721CFEA59A00980397 /* MyNavigationController.h */,
+				2B23CC731CFEA59A00980397 /* MyNavigationController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -184,6 +223,8 @@
 		2B23CC621CFE9D1200980397 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC811CFEC1C200980397 /* MyTabBar.h */,
+				2B23CC821CFEC1C200980397 /* MyTabBar.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -215,6 +256,8 @@
 		2B23CC661CFE9D1200980397 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC7B1CFEA70D00980397 /* MeViewController.h */,
+				2B23CC7C1CFEA70D00980397 /* MeViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -246,6 +289,8 @@
 		2B23CC6A1CFE9D1200980397 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC7E1CFEA71E00980397 /* NewViewController.h */,
+				2B23CC7F1CFEA71E00980397 /* NewViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -401,8 +446,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B23CC861CFECB7B00980397 /* UIView+Extension.m in Sources */,
 				2B23CC6D1CFE9D1200980397 /* AppDelegate.m in Sources */,
+				2B23CC741CFEA59A00980397 /* MyNavigationController.m in Sources */,
+				2B23CC7D1CFEA70D00980397 /* MeViewController.m in Sources */,
+				2B23CC771CFEA6EB00980397 /* HotViewController.m in Sources */,
 				2B23CC3F1CFE9B0A00980397 /* main.m in Sources */,
+				2B23CC891CFEE10600980397 /* UIBarButtonItem+Extension.m in Sources */,
+				2B23CC7A1CFEA6FC00980397 /* FriendViewController.m in Sources */,
+				2B23CC711CFEA42600980397 /* MyTabBarController.m in Sources */,
+				2B23CC831CFEC1C200980397 /* MyTabBar.m in Sources */,
+				2B23CC801CFEA71E00980397 /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

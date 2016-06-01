@@ -9,5 +9,5 @@
 #import <UIKit/UIKit.h>
 
 @interface UIBarButtonItem (Extension)
-
++(instancetype) barButtonItemWith:(NSString *)image selectedImage:(NSString *)selectedImage target:(id)target action:(SEL)action;
 @end
