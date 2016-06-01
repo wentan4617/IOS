@@ -33,8 +33,6 @@
     NSString *lastVersion = [[NSUserDefaults standardUserDefaults] objectForKey:key];
     NSString *currentVersion = [NSBundle mainBundle].infoDictionary[key];
     
-    NSLog(@"%@   %@",lastVersion,currentVersion);
-    
     
     if ([lastVersion isEqualToString:currentVersion]) {
         MainTabBarController *tbController = [[MainTabBarController alloc]init];
@@ -46,6 +44,8 @@
         [[NSUserDefaults standardUserDefaults] synchronize];
         
     }
+//    NSArray*path =NSSearchPathForDirectoriesInDomains(NSDocumentDirectory,NSUserDomainMask,YES);
+//    NSLog(@"%@",path);
     
     [self.window makeKeyAndVisible];
     
