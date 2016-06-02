@@ -7,6 +7,7 @@
     <objects>
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecommendViewController">
             <connections>
+                <outlet property="leftTableView" destination="Kmi-AU-MJM" id="OKd-8i-GAp"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -14,7 +15,25 @@
         <view clearsContextBeforeDrawing="NO" contentMode="scaleToFill" id="i5M-Pr-FkT">
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kmi-AU-MJM" userLabel="leftTable">
+                    <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
+                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <constraints>
+                        <constraint firstAttribute="width" constant="70" id="ex4-Ie-byh"/>
+                    </constraints>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="kiE-Zh-lJy"/>
+                        <outlet property="delegate" destination="-1" id="WJ9-3H-7zi"/>
+                    </connections>
+                </tableView>
+            </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+            <constraints>
+                <constraint firstItem="Kmi-AU-MJM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hPV-DK-y5D"/>
+                <constraint firstAttribute="bottom" secondItem="Kmi-AU-MJM" secondAttribute="bottom" id="nlq-cZ-rMd"/>
+                <constraint firstItem="Kmi-AU-MJM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xym-1V-YIy"/>
+            </constraints>
         </view>
     </objects>
 </document>

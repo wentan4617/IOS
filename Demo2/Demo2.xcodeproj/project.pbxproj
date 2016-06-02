@@ -23,6 +23,10 @@
 		2B23CC8B1CFF903600980397 /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CC8A1CFF903600980397 /* FriendViewController.xib */; };
 		2B23CC8F1CFF99F500980397 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC8D1CFF99F500980397 /* RecommendViewController.m */; };
 		2B23CC901CFF99F500980397 /* RecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CC8E1CFF99F500980397 /* RecommendViewController.xib */; };
+		2B23CC921CFFD48E00980397 /* Foundation+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC911CFFD48E00980397 /* Foundation+Log.m */; };
+		2B23CC951D00468E00980397 /* RecommandCategoryModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC941D00468E00980397 /* RecommandCategoryModel.m */; };
+		2B23CC991D00479100980397 /* RecommandCategoryTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC971D00479100980397 /* RecommandCategoryTableViewCell.m */; };
+		2B23CC9A1D00479100980397 /* RecommandCategoryTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CC981D00479100980397 /* RecommandCategoryTableViewCell.xib */; };
 		E0DC0D1B6D0FA65BB0016CA2 /* libPods-Demo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 509DB0BA857A8DA09F88EF37 /* libPods-Demo2.a */; };
 /* End PBXBuildFile section */
 
@@ -57,6 +61,12 @@
 		2B23CC8C1CFF99F500980397 /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
 		2B23CC8D1CFF99F500980397 /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
 		2B23CC8E1CFF99F500980397 /* RecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendViewController.xib; sourceTree = "<group>"; };
+		2B23CC911CFFD48E00980397 /* Foundation+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "Foundation+Log.m"; sourceTree = "<group>"; };
+		2B23CC931D00468E00980397 /* RecommandCategoryModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommandCategoryModel.h; sourceTree = "<group>"; };
+		2B23CC941D00468E00980397 /* RecommandCategoryModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandCategoryModel.m; sourceTree = "<group>"; };
+		2B23CC961D00479100980397 /* RecommandCategoryTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommandCategoryTableViewCell.h; sourceTree = "<group>"; };
+		2B23CC971D00479100980397 /* RecommandCategoryTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommandCategoryTableViewCell.m; sourceTree = "<group>"; };
+		2B23CC981D00479100980397 /* RecommandCategoryTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommandCategoryTableViewCell.xib; sourceTree = "<group>"; };
 		45F50CF8063BF2A5B084645A /* Pods-Demo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo2/Pods-Demo2.release.xcconfig"; sourceTree = "<group>"; };
 		509DB0BA857A8DA09F88EF37 /* libPods-Demo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE59DA51F86676C0EC52B11 /* Pods-Demo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo2/Pods-Demo2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -105,6 +115,7 @@
 		2B23CC3D1CFE9B0A00980397 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC911CFFD48E00980397 /* Foundation+Log.m */,
 				2B23CC4B1CFE9B0A00980397 /* LaunchScreen.storyboard */,
 				2B23CC4E1CFE9B0A00980397 /* Info.plist */,
 				2B23CC3E1CFE9B0A00980397 /* main.m */,
@@ -151,6 +162,8 @@
 		2B23CC571CFE9D1200980397 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC931D00468E00980397 /* RecommandCategoryModel.h */,
+				2B23CC941D00468E00980397 /* RecommandCategoryModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -158,6 +171,9 @@
 		2B23CC581CFE9D1200980397 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2B23CC961D00479100980397 /* RecommandCategoryTableViewCell.h */,
+				2B23CC971D00479100980397 /* RecommandCategoryTableViewCell.m */,
+				2B23CC981D00479100980397 /* RecommandCategoryTableViewCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -400,6 +416,7 @@
 				2B23CC8B1CFF903600980397 /* FriendViewController.xib in Resources */,
 				2B23CC901CFF99F500980397 /* RecommendViewController.xib in Resources */,
 				2B23CC4D1CFE9B0A00980397 /* LaunchScreen.storyboard in Resources */,
+				2B23CC9A1D00479100980397 /* RecommandCategoryTableViewCell.xib in Resources */,
 				2B23CC4A1CFE9B0A00980397 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,10 +482,13 @@
 				2B23CC7D1CFEA70D00980397 /* MeViewController.m in Sources */,
 				2B23CC771CFEA6EB00980397 /* HotViewController.m in Sources */,
 				2B23CC8F1CFF99F500980397 /* RecommendViewController.m in Sources */,
+				2B23CC951D00468E00980397 /* RecommandCategoryModel.m in Sources */,
 				2B23CC3F1CFE9B0A00980397 /* main.m in Sources */,
+				2B23CC991D00479100980397 /* RecommandCategoryTableViewCell.m in Sources */,
 				2B23CC891CFEE10600980397 /* UIBarButtonItem+Extension.m in Sources */,
 				2B23CC7A1CFEA6FC00980397 /* FriendViewController.m in Sources */,
 				2B23CC711CFEA42600980397 /* MyTabBarController.m in Sources */,
+				2B23CC921CFFD48E00980397 /* Foundation+Log.m in Sources */,
 				2B23CC831CFEC1C200980397 /* MyTabBar.m in Sources */,
 				2B23CC801CFEA71E00980397 /* NewViewController.m in Sources */,
 			);
