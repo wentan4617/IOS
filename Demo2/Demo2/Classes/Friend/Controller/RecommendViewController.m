@@ -1,38 +1,29 @@
 //
-//  FriendViewController.m
+//  RecommendViewController.m
 //  Demo2
 //
-//  Created by went_macbook on 16/6/1.
+//  Created by went_macbook on 16/6/2.
 //  Copyright © 2016年 went. All rights reserved.
 //
 
-#import "FriendViewController.h"
 #import "RecommendViewController.h"
 
-@interface FriendViewController ()
+@interface RecommendViewController ()
 
 @end
 
-@implementation FriendViewController
+@implementation RecommendViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view.
+    // Do any additional setup after loading the view from its nib.
+    self.navigationItem.title = @"Recommend";
     self.view.backgroundColor = GlobalBgColor;
-    
-    self.navigationItem.title = @"Subscribs";
-    
-    self.navigationItem.leftBarButtonItem = [UIBarButtonItem barButtonItemWith:@"friendsRecommentIcon" selectedImage:@"friendsRecommentIcon-click" target:self action:@selector(leftDidClick)];
 }
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
     // Dispose of any resources that can be recreated.
-}
-
-- (void)leftDidClick{
-    RecommendViewController *recommend = [[RecommendViewController alloc]init];
-    [self.navigationController pushViewController:recommend animated:YES];
 }
 
 /*

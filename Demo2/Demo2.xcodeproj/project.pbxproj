@@ -20,6 +20,9 @@
 		2B23CC831CFEC1C200980397 /* MyTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC821CFEC1C200980397 /* MyTabBar.m */; };
 		2B23CC861CFECB7B00980397 /* UIView+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC851CFECB7B00980397 /* UIView+Extension.m */; };
 		2B23CC891CFEE10600980397 /* UIBarButtonItem+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC881CFEE10600980397 /* UIBarButtonItem+Extension.m */; };
+		2B23CC8B1CFF903600980397 /* FriendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CC8A1CFF903600980397 /* FriendViewController.xib */; };
+		2B23CC8F1CFF99F500980397 /* RecommendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC8D1CFF99F500980397 /* RecommendViewController.m */; };
+		2B23CC901CFF99F500980397 /* RecommendViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CC8E1CFF99F500980397 /* RecommendViewController.xib */; };
 		E0DC0D1B6D0FA65BB0016CA2 /* libPods-Demo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 509DB0BA857A8DA09F88EF37 /* libPods-Demo2.a */; };
 /* End PBXBuildFile section */
 
@@ -50,6 +53,10 @@
 		2B23CC851CFECB7B00980397 /* UIView+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+Extension.m"; sourceTree = "<group>"; };
 		2B23CC871CFEE10600980397 /* UIBarButtonItem+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+Extension.h"; sourceTree = "<group>"; };
 		2B23CC881CFEE10600980397 /* UIBarButtonItem+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+Extension.m"; sourceTree = "<group>"; };
+		2B23CC8A1CFF903600980397 /* FriendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FriendViewController.xib; sourceTree = "<group>"; };
+		2B23CC8C1CFF99F500980397 /* RecommendViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendViewController.h; sourceTree = "<group>"; };
+		2B23CC8D1CFF99F500980397 /* RecommendViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendViewController.m; sourceTree = "<group>"; };
+		2B23CC8E1CFF99F500980397 /* RecommendViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendViewController.xib; sourceTree = "<group>"; };
 		45F50CF8063BF2A5B084645A /* Pods-Demo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo2/Pods-Demo2.release.xcconfig"; sourceTree = "<group>"; };
 		509DB0BA857A8DA09F88EF37 /* libPods-Demo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE59DA51F86676C0EC52B11 /* Pods-Demo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo2/Pods-Demo2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -133,6 +140,10 @@
 			children = (
 				2B23CC781CFEA6FC00980397 /* FriendViewController.h */,
 				2B23CC791CFEA6FC00980397 /* FriendViewController.m */,
+				2B23CC8A1CFF903600980397 /* FriendViewController.xib */,
+				2B23CC8C1CFF99F500980397 /* RecommendViewController.h */,
+				2B23CC8D1CFF99F500980397 /* RecommendViewController.m */,
+				2B23CC8E1CFF99F500980397 /* RecommendViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -386,6 +397,8 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B23CC8B1CFF903600980397 /* FriendViewController.xib in Resources */,
+				2B23CC901CFF99F500980397 /* RecommendViewController.xib in Resources */,
 				2B23CC4D1CFE9B0A00980397 /* LaunchScreen.storyboard in Resources */,
 				2B23CC4A1CFE9B0A00980397 /* Assets.xcassets in Resources */,
 			);
@@ -451,6 +464,7 @@
 				2B23CC741CFEA59A00980397 /* MyNavigationController.m in Sources */,
 				2B23CC7D1CFEA70D00980397 /* MeViewController.m in Sources */,
 				2B23CC771CFEA6EB00980397 /* HotViewController.m in Sources */,
+				2B23CC8F1CFF99F500980397 /* RecommendViewController.m in Sources */,
 				2B23CC3F1CFE9B0A00980397 /* main.m in Sources */,
 				2B23CC891CFEE10600980397 /* UIBarButtonItem+Extension.m in Sources */,
 				2B23CC7A1CFEA6FC00980397 /* FriendViewController.m in Sources */,

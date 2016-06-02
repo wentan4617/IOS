@@ -16,7 +16,13 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    [self.navigationBar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+   
+}
+
++ (void)initialize{
+    UINavigationBar *bar = [UINavigationBar appearance];
+    [bar setBackgroundImage:[UIImage imageNamed:@"navigationbarBackgroundWhite"] forBarMetrics:UIBarMetricsDefault];
+   
 }
 
 - (void)didReceiveMemoryWarning {
@@ -24,14 +30,36 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
 
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
+
+- (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
+    
+    if ([self childViewControllers].count > 0) {
+        viewController.hidesBottomBarWhenPushed = YES;
+        
+        UIButton *back = [[UIButton alloc]init];
+        [back setImage:[UIImage imageNamed:@"navigationButtonReturn"] forState:UIControlStateNormal];
+        [back setImage:[UIImage imageNamed:@"navigationButtonReturnClick"] forState:UIControlStateHighlighted];
+        [back setTitle:@"Back" forState:UIControlStateNormal];
+        [back setTitleColor:[UIColor blackColor] forState:UIControlStateNormal];
+        [back setTitleColor:[UIColor redColor] forState:UIControlStateHighlighted];
+        back.size = CGSizeMake(70, 30);
+        back.contentHorizontalAlignment = UIControlContentHorizontalAlignmentLeft;
+        back.contentEdgeInsets = UIEdgeInsetsMake(0, -10, 0, 0);
+        
+        [back addTarget:self action:@selector(back) forControlEvents:UIControlEventTouchUpInside];
+        
+        viewController.navigationItem.leftBarButtonItem = [[UIBarButtonItem alloc]initWithCustomView:back];
+        
+        
+    }
+    
+    [super pushViewController:viewController animated:animated];
+    
 }
-*/
+
+- (void)back{
+    [self popViewControllerAnimated:YES];
+}
 
 @end
