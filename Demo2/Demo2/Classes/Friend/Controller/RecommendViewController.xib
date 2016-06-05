@@ -8,6 +8,7 @@
         <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="RecommendViewController">
             <connections>
                 <outlet property="leftTableView" destination="Kmi-AU-MJM" id="OKd-8i-GAp"/>
+                <outlet property="rightTableView" destination="X0d-ha-whB" id="YsG-On-xuH"/>
                 <outlet property="view" destination="i5M-Pr-FkT" id="sfx-zR-JGt"/>
             </connections>
         </placeholder>
@@ -16,9 +17,9 @@
             <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
             <subviews>
-                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="default" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kmi-AU-MJM" userLabel="leftTable">
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" showsSelectionImmediatelyOnTouchBegin="NO" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="Kmi-AU-MJM" userLabel="leftTable">
                     <rect key="frame" x="0.0" y="0.0" width="70" height="600"/>
-                    <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                     <constraints>
                         <constraint firstAttribute="width" constant="70" id="ex4-Ie-byh"/>
                     </constraints>
@@ -27,9 +28,21 @@
                         <outlet property="delegate" destination="-1" id="WJ9-3H-7zi"/>
                     </connections>
                 </tableView>
+                <tableView clipsSubviews="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" style="plain" separatorStyle="none" rowHeight="44" sectionHeaderHeight="28" sectionFooterHeight="28" translatesAutoresizingMaskIntoConstraints="NO" id="X0d-ha-whB" userLabel="RightTable">
+                    <rect key="frame" x="70" y="0.0" width="530" height="600"/>
+                    <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                    <connections>
+                        <outlet property="dataSource" destination="-1" id="BZJ-FF-CC7"/>
+                        <outlet property="delegate" destination="-1" id="BoV-mm-Vmh"/>
+                    </connections>
+                </tableView>
             </subviews>
             <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
             <constraints>
+                <constraint firstItem="X0d-ha-whB" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="JO0-ef-Smr"/>
+                <constraint firstItem="X0d-ha-whB" firstAttribute="leading" secondItem="Kmi-AU-MJM" secondAttribute="trailing" id="LcA-OP-U6W"/>
+                <constraint firstAttribute="bottom" secondItem="X0d-ha-whB" secondAttribute="bottom" id="UV1-OX-Nlg"/>
+                <constraint firstAttribute="trailing" secondItem="X0d-ha-whB" secondAttribute="trailing" id="ahK-5j-30W"/>
                 <constraint firstItem="Kmi-AU-MJM" firstAttribute="top" secondItem="i5M-Pr-FkT" secondAttribute="top" id="hPV-DK-y5D"/>
                 <constraint firstAttribute="bottom" secondItem="Kmi-AU-MJM" secondAttribute="bottom" id="nlq-cZ-rMd"/>
                 <constraint firstItem="Kmi-AU-MJM" firstAttribute="leading" secondItem="i5M-Pr-FkT" secondAttribute="leading" id="xym-1V-YIy"/>

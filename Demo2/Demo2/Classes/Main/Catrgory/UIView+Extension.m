@@ -49,6 +49,8 @@
     frame.size = size;
     self.frame = frame;
 }
-
+- (CGSize)size{
+    return self.frame.size;
+}
 
 @end

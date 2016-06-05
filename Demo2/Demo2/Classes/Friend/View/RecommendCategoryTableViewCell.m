@@ -6,16 +6,17 @@
 //  Copyright © 2016年 went. All rights reserved.
 //
 
-#import "RecommandCategoryTableViewCell.h"
+#import "RecommendCategoryTableViewCell.h"
+#import "RecommendCategoryModel.h"
 
-@interface RecommandCategoryTableViewCell ()
+@interface RecommendCategoryTableViewCell ()
 
 @property (weak, nonatomic) IBOutlet UIView *selectedIndicator;
 
 
 @end
 
-@implementation RecommandCategoryTableViewCell
+@implementation RecommendCategoryTableViewCell
 
 - (void)awakeFromNib {
     [super awakeFromNib];
@@ -32,7 +33,7 @@
     // Configure the view for the selected state
 }
 
-- (void)setCategory:(RecommandCategoryModel *)category{
+- (void)setCategory:(RecommendCategoryModel *)category{
     _category = category;
     self.textLabel.text = category.name;
 }

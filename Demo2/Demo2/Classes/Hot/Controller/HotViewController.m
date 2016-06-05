@@ -7,6 +7,7 @@
 //
 
 #import "HotViewController.h"
+#import "RecommendTagsViewController.h"
 
 @interface HotViewController ()
 
@@ -37,7 +38,8 @@
 }
 
 - (void)leftDidClick{
-    LogFunction;
+    RecommendTagsViewController *recommendTags = [[RecommendTagsViewController alloc]init];
+    [self.navigationController pushViewController:recommendTags animated:YES];
 }
 /*
 #pragma mark - Navigation

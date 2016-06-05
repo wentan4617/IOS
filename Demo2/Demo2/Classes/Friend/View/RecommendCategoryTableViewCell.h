@@ -7,10 +7,10 @@
 //
 
 #import <UIKit/UIKit.h>
-#import "RecommandCategoryModel.h"
 
-@interface RecommandCategoryTableViewCell : UITableViewCell
+@class RecommendCategoryModel;
+@interface RecommendCategoryTableViewCell : UITableViewCell
 
-@property(nonatomic,strong) RecommandCategoryModel *category;
+@property(nonatomic,strong) RecommendCategoryModel *category;
 
 @end

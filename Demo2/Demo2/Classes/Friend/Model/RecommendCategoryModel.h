@@ -7,11 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
+#import "RecommendUserModel.h"
 
-@interface RecommandCategoryModel : NSObject
+@interface RecommendCategoryModel : NSObject
 
 @property(nonatomic,assign) NSInteger id;
 @property(nonatomic,assign) NSInteger count;
 @property(nonatomic,copy) NSString *name;
 
+@property(nonatomic,strong) NSMutableArray *usersArray;
+
+@property(nonatomic,assign) NSInteger currentPage;
+@property(nonatomic,assign) NSInteger totalUserCount;
 @end
