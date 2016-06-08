@@ -30,10 +30,16 @@
 		2B23CC9D1D014EA700980397 /* RecommendUserModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC9C1D014EA700980397 /* RecommendUserModel.m */; };
 		2B23CCA11D0151CC00980397 /* RecommendUserTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B23CC9F1D0151CC00980397 /* RecommendUserTableViewCell.m */; };
 		2B23CCA21D0151CC00980397 /* RecommendUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CCA01D0151CC00980397 /* RecommendUserTableViewCell.xib */; };
+		2B606C011D07C56C0054BD9E /* GuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B606C001D07C56C0054BD9E /* GuidePageView.m */; };
+		2B606C031D07C57F0054BD9E /* GuidePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B606C021D07C57F0054BD9E /* GuidePageView.xib */; };
 		2B6E4EAD1D041F3D008BA692 /* RecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EAC1D041F3D008BA692 /* RecommendTagsViewController.m */; };
 		2B6E4EB01D042111008BA692 /* RecommendTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EAF1D042111008BA692 /* RecommendTagsModel.m */; };
 		2B6E4EB41D042197008BA692 /* RecommendTagsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EB21D042197008BA692 /* RecommendTagsTableViewCell.m */; };
 		2B6E4EB51D042197008BA692 /* RecommendTagsTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6E4EB31D042197008BA692 /* RecommendTagsTableViewCell.xib */; };
+		2B6E4EB91D063D8D008BA692 /* LoginRigisterViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EB71D063D8D008BA692 /* LoginRigisterViewController.m */; };
+		2B6E4EBA1D063D8D008BA692 /* LoginRigisterViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B6E4EB81D063D8D008BA692 /* LoginRigisterViewController.xib */; };
+		2B6E4EBD1D064626008BA692 /* VirticalButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EBC1D064626008BA692 /* VirticalButton.m */; };
+		2B6E4EC01D067D9E008BA692 /* LoginTextField.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EBF1D067D9E008BA692 /* LoginTextField.m */; };
 		E0DC0D1B6D0FA65BB0016CA2 /* libPods-Demo2.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 509DB0BA857A8DA09F88EF37 /* libPods-Demo2.a */; };
 /* End PBXBuildFile section */
 
@@ -79,6 +85,9 @@
 		2B23CC9E1D0151CC00980397 /* RecommendUserTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendUserTableViewCell.h; sourceTree = "<group>"; };
 		2B23CC9F1D0151CC00980397 /* RecommendUserTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendUserTableViewCell.m; sourceTree = "<group>"; };
 		2B23CCA01D0151CC00980397 /* RecommendUserTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendUserTableViewCell.xib; sourceTree = "<group>"; };
+		2B606BFF1D07C56C0054BD9E /* GuidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageView.h; sourceTree = "<group>"; };
+		2B606C001D07C56C0054BD9E /* GuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageView.m; sourceTree = "<group>"; };
+		2B606C021D07C57F0054BD9E /* GuidePageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuidePageView.xib; sourceTree = "<group>"; };
 		2B6E4EAB1D041F3D008BA692 /* RecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendTagsViewController.h; sourceTree = "<group>"; };
 		2B6E4EAC1D041F3D008BA692 /* RecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendTagsViewController.m; sourceTree = "<group>"; };
 		2B6E4EAE1D042111008BA692 /* RecommendTagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendTagsModel.h; sourceTree = "<group>"; };
@@ -86,6 +95,13 @@
 		2B6E4EB11D042197008BA692 /* RecommendTagsTableViewCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendTagsTableViewCell.h; sourceTree = "<group>"; };
 		2B6E4EB21D042197008BA692 /* RecommendTagsTableViewCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendTagsTableViewCell.m; sourceTree = "<group>"; };
 		2B6E4EB31D042197008BA692 /* RecommendTagsTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = RecommendTagsTableViewCell.xib; sourceTree = "<group>"; };
+		2B6E4EB61D063D8D008BA692 /* LoginRigisterViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginRigisterViewController.h; sourceTree = "<group>"; };
+		2B6E4EB71D063D8D008BA692 /* LoginRigisterViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginRigisterViewController.m; sourceTree = "<group>"; };
+		2B6E4EB81D063D8D008BA692 /* LoginRigisterViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoginRigisterViewController.xib; sourceTree = "<group>"; };
+		2B6E4EBB1D064626008BA692 /* VirticalButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VirticalButton.h; sourceTree = "<group>"; };
+		2B6E4EBC1D064626008BA692 /* VirticalButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VirticalButton.m; sourceTree = "<group>"; };
+		2B6E4EBE1D067D9E008BA692 /* LoginTextField.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginTextField.h; sourceTree = "<group>"; };
+		2B6E4EBF1D067D9E008BA692 /* LoginTextField.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginTextField.m; sourceTree = "<group>"; };
 		45F50CF8063BF2A5B084645A /* Pods-Demo2.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo2.release.xcconfig"; path = "Pods/Target Support Files/Pods-Demo2/Pods-Demo2.release.xcconfig"; sourceTree = "<group>"; };
 		509DB0BA857A8DA09F88EF37 /* libPods-Demo2.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-Demo2.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		EAE59DA51F86676C0EC52B11 /* Pods-Demo2.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Demo2.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Demo2/Pods-Demo2.debug.xcconfig"; sourceTree = "<group>"; };
@@ -174,6 +190,9 @@
 				2B23CC8C1CFF99F500980397 /* RecommendViewController.h */,
 				2B23CC8D1CFF99F500980397 /* RecommendViewController.m */,
 				2B23CC8E1CFF99F500980397 /* RecommendViewController.xib */,
+				2B6E4EB61D063D8D008BA692 /* LoginRigisterViewController.h */,
+				2B6E4EB71D063D8D008BA692 /* LoginRigisterViewController.m */,
+				2B6E4EB81D063D8D008BA692 /* LoginRigisterViewController.xib */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -198,6 +217,10 @@
 				2B23CC9E1D0151CC00980397 /* RecommendUserTableViewCell.h */,
 				2B23CC9F1D0151CC00980397 /* RecommendUserTableViewCell.m */,
 				2B23CCA01D0151CC00980397 /* RecommendUserTableViewCell.xib */,
+				2B6E4EBB1D064626008BA692 /* VirticalButton.h */,
+				2B6E4EBC1D064626008BA692 /* VirticalButton.m */,
+				2B6E4EBE1D067D9E008BA692 /* LoginTextField.h */,
+				2B6E4EBF1D067D9E008BA692 /* LoginTextField.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -297,6 +320,9 @@
 		2B23CC641CFE9D1200980397 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2B606BFF1D07C56C0054BD9E /* GuidePageView.h */,
+				2B606C001D07C56C0054BD9E /* GuidePageView.m */,
+				2B606C021D07C57F0054BD9E /* GuidePageView.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -445,6 +471,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				2B6E4EB51D042197008BA692 /* RecommendTagsTableViewCell.xib in Resources */,
+				2B6E4EBA1D063D8D008BA692 /* LoginRigisterViewController.xib in Resources */,
+				2B606C031D07C57F0054BD9E /* GuidePageView.xib in Resources */,
 				2B23CC8B1CFF903600980397 /* FriendViewController.xib in Resources */,
 				2B23CC901CFF99F500980397 /* RecommendViewController.xib in Resources */,
 				2B23CC4D1CFE9B0A00980397 /* LaunchScreen.storyboard in Resources */,
@@ -509,6 +537,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B6E4EC01D067D9E008BA692 /* LoginTextField.m in Sources */,
 				2B6E4EB01D042111008BA692 /* RecommendTagsModel.m in Sources */,
 				2B23CC861CFECB7B00980397 /* UIView+Extension.m in Sources */,
 				2B23CC6D1CFE9D1200980397 /* AppDelegate.m in Sources */,
@@ -517,12 +546,15 @@
 				2B23CC7D1CFEA70D00980397 /* MeViewController.m in Sources */,
 				2B23CC771CFEA6EB00980397 /* HotViewController.m in Sources */,
 				2B23CC8F1CFF99F500980397 /* RecommendViewController.m in Sources */,
+				2B6E4EB91D063D8D008BA692 /* LoginRigisterViewController.m in Sources */,
 				2B23CC951D00468E00980397 /* RecommendCategoryModel.m in Sources */,
 				2B23CC3F1CFE9B0A00980397 /* main.m in Sources */,
 				2B23CC991D00479100980397 /* RecommendCategoryTableViewCell.m in Sources */,
 				2B6E4EB41D042197008BA692 /* RecommendTagsTableViewCell.m in Sources */,
 				2B23CC9D1D014EA700980397 /* RecommendUserModel.m in Sources */,
 				2B23CC891CFEE10600980397 /* UIBarButtonItem+Extension.m in Sources */,
+				2B606C011D07C56C0054BD9E /* GuidePageView.m in Sources */,
+				2B6E4EBD1D064626008BA692 /* VirticalButton.m in Sources */,
 				2B23CCA11D0151CC00980397 /* RecommendUserTableViewCell.m in Sources */,
 				2B23CC7A1CFEA6FC00980397 /* FriendViewController.m in Sources */,
 				2B23CC711CFEA42600980397 /* MyTabBarController.m in Sources */,

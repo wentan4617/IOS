@@ -8,6 +8,7 @@
 
 #import "FriendViewController.h"
 #import "RecommendViewController.h"
+#import "LoginRigisterViewController.h"
 
 @interface FriendViewController ()
 
@@ -33,6 +34,10 @@
 - (void)leftDidClick{
     RecommendViewController *recommend = [[RecommendViewController alloc]init];
     [self.navigationController pushViewController:recommend animated:YES];
+}
+- (IBAction)loginOrRigister:(id)sender {
+    LoginRigisterViewController *vc = [[LoginRigisterViewController alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
 }
 
 /*
