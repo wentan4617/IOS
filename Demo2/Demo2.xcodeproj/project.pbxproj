@@ -32,6 +32,11 @@
 		2B23CCA21D0151CC00980397 /* RecommendUserTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B23CCA01D0151CC00980397 /* RecommendUserTableViewCell.xib */; };
 		2B606C011D07C56C0054BD9E /* GuidePageView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B606C001D07C56C0054BD9E /* GuidePageView.m */; };
 		2B606C031D07C57F0054BD9E /* GuidePageView.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2B606C021D07C57F0054BD9E /* GuidePageView.xib */; };
+		2B606C061D0819C40054BD9E /* AllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B606C051D0819C40054BD9E /* AllViewController.m */; };
+		2B606C091D0819DA0054BD9E /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B606C081D0819DA0054BD9E /* VideoViewController.m */; };
+		2B606C0C1D0819E80054BD9E /* VoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B606C0B1D0819E80054BD9E /* VoiceViewController.m */; };
+		2B606C0F1D0819F40054BD9E /* WordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B606C0E1D0819F40054BD9E /* WordViewController.m */; };
+		2B606C121D0825B60054BD9E /* PictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B606C111D0825B60054BD9E /* PictureViewController.m */; };
 		2B6E4EAD1D041F3D008BA692 /* RecommendTagsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EAC1D041F3D008BA692 /* RecommendTagsViewController.m */; };
 		2B6E4EB01D042111008BA692 /* RecommendTagsModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EAF1D042111008BA692 /* RecommendTagsModel.m */; };
 		2B6E4EB41D042197008BA692 /* RecommendTagsTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B6E4EB21D042197008BA692 /* RecommendTagsTableViewCell.m */; };
@@ -88,6 +93,16 @@
 		2B606BFF1D07C56C0054BD9E /* GuidePageView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GuidePageView.h; sourceTree = "<group>"; };
 		2B606C001D07C56C0054BD9E /* GuidePageView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GuidePageView.m; sourceTree = "<group>"; };
 		2B606C021D07C57F0054BD9E /* GuidePageView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = GuidePageView.xib; sourceTree = "<group>"; };
+		2B606C041D0819C40054BD9E /* AllViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AllViewController.h; sourceTree = "<group>"; };
+		2B606C051D0819C40054BD9E /* AllViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AllViewController.m; sourceTree = "<group>"; };
+		2B606C071D0819DA0054BD9E /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		2B606C081D0819DA0054BD9E /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		2B606C0A1D0819E80054BD9E /* VoiceViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VoiceViewController.h; sourceTree = "<group>"; };
+		2B606C0B1D0819E80054BD9E /* VoiceViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VoiceViewController.m; sourceTree = "<group>"; };
+		2B606C0D1D0819F40054BD9E /* WordViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WordViewController.h; sourceTree = "<group>"; };
+		2B606C0E1D0819F40054BD9E /* WordViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WordViewController.m; sourceTree = "<group>"; };
+		2B606C101D0825B60054BD9E /* PictureViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PictureViewController.h; sourceTree = "<group>"; };
+		2B606C111D0825B60054BD9E /* PictureViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PictureViewController.m; sourceTree = "<group>"; };
 		2B6E4EAB1D041F3D008BA692 /* RecommendTagsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendTagsViewController.h; sourceTree = "<group>"; };
 		2B6E4EAC1D041F3D008BA692 /* RecommendTagsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = RecommendTagsViewController.m; sourceTree = "<group>"; };
 		2B6E4EAE1D042111008BA692 /* RecommendTagsModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = RecommendTagsModel.h; sourceTree = "<group>"; };
@@ -242,6 +257,16 @@
 				2B23CC761CFEA6EB00980397 /* HotViewController.m */,
 				2B6E4EAB1D041F3D008BA692 /* RecommendTagsViewController.h */,
 				2B6E4EAC1D041F3D008BA692 /* RecommendTagsViewController.m */,
+				2B606C041D0819C40054BD9E /* AllViewController.h */,
+				2B606C051D0819C40054BD9E /* AllViewController.m */,
+				2B606C071D0819DA0054BD9E /* VideoViewController.h */,
+				2B606C081D0819DA0054BD9E /* VideoViewController.m */,
+				2B606C0A1D0819E80054BD9E /* VoiceViewController.h */,
+				2B606C0B1D0819E80054BD9E /* VoiceViewController.m */,
+				2B606C0D1D0819F40054BD9E /* WordViewController.h */,
+				2B606C0E1D0819F40054BD9E /* WordViewController.m */,
+				2B606C101D0825B60054BD9E /* PictureViewController.h */,
+				2B606C111D0825B60054BD9E /* PictureViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -540,15 +565,18 @@
 				2B6E4EC01D067D9E008BA692 /* LoginTextField.m in Sources */,
 				2B6E4EB01D042111008BA692 /* RecommendTagsModel.m in Sources */,
 				2B23CC861CFECB7B00980397 /* UIView+Extension.m in Sources */,
+				2B606C061D0819C40054BD9E /* AllViewController.m in Sources */,
 				2B23CC6D1CFE9D1200980397 /* AppDelegate.m in Sources */,
 				2B6E4EAD1D041F3D008BA692 /* RecommendTagsViewController.m in Sources */,
 				2B23CC741CFEA59A00980397 /* MyNavigationController.m in Sources */,
 				2B23CC7D1CFEA70D00980397 /* MeViewController.m in Sources */,
 				2B23CC771CFEA6EB00980397 /* HotViewController.m in Sources */,
+				2B606C0C1D0819E80054BD9E /* VoiceViewController.m in Sources */,
 				2B23CC8F1CFF99F500980397 /* RecommendViewController.m in Sources */,
 				2B6E4EB91D063D8D008BA692 /* LoginRigisterViewController.m in Sources */,
 				2B23CC951D00468E00980397 /* RecommendCategoryModel.m in Sources */,
 				2B23CC3F1CFE9B0A00980397 /* main.m in Sources */,
+				2B606C121D0825B60054BD9E /* PictureViewController.m in Sources */,
 				2B23CC991D00479100980397 /* RecommendCategoryTableViewCell.m in Sources */,
 				2B6E4EB41D042197008BA692 /* RecommendTagsTableViewCell.m in Sources */,
 				2B23CC9D1D014EA700980397 /* RecommendUserModel.m in Sources */,
@@ -557,9 +585,11 @@
 				2B6E4EBD1D064626008BA692 /* VirticalButton.m in Sources */,
 				2B23CCA11D0151CC00980397 /* RecommendUserTableViewCell.m in Sources */,
 				2B23CC7A1CFEA6FC00980397 /* FriendViewController.m in Sources */,
+				2B606C0F1D0819F40054BD9E /* WordViewController.m in Sources */,
 				2B23CC711CFEA42600980397 /* MyTabBarController.m in Sources */,
 				2B23CC921CFFD48E00980397 /* Foundation+Log.m in Sources */,
 				2B23CC831CFEC1C200980397 /* MyTabBar.m in Sources */,
+				2B606C091D0819DA0054BD9E /* VideoViewController.m in Sources */,
 				2B23CC801CFEA71E00980397 /* NewViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
